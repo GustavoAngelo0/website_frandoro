@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS loja_assados
+CREATE DATABASE IF NOT EXISTS frandoro
 CHARACTER SET utf8mb4 
 COLLATE utf8mb4_unicode_ci;
 
-USE loja_assados;
+USE frandoro;
 
 CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
