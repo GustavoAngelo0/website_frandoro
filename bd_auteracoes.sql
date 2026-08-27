@@ -10,3 +10,12 @@ CREATE TABLE IF NOT EXISTS sessoes_caixa (
     data_fechamento DATETIME DEFAULT NULL,
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
+
+
+-- Adiciona apenas os campos de agendamento na sua tabela 'pedidos' que já existe
+ALTER TABLE pedidos 
+ADD COLUMN cliente_nome VARCHAR(100) NULL,
+ADD COLUMN cliente_telefone VARCHAR(20) NULL,
+ADD COLUMN data_retirada DATE NULL,
+ADD COLUMN hora_retirada TIME NULL,
+ADD COLUMN status_encomenda ENUM('pendente', 'em_preparo', 'pronto', 'concluido', 'cancelado') DEFAULT 'pendente';
