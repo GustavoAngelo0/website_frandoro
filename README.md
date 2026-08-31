@@ -61,6 +61,8 @@ A segurança foi uma premissa desde a linha de base do projeto. As seguintes bar
 ├── .htaccess                  # Bloqueio de indexação Apache
 └── frandoro.sql               # Dump estrutural do banco de dados
 
+---
+
 ##  Como Executar o Projeto Localmente
 
 ### Pré-requisitos
