@@ -60,3 +60,17 @@ A segurança foi uma premissa desde a linha de base do projeto. As seguintes bar
 ├── public/                    # (Assets estáticos, CSS, JS, Imagens)
 ├── .htaccess                  # Bloqueio de indexação Apache
 └── frandoro.sql               # Dump estrutural do banco de dados
+
+##  Como Executar o Projeto Localmente
+
+### Pré-requisitos
+* Servidor local (ex: **XAMPP**, **WAMP** ou **Laragon**) com suporte a **PHP 8.x** e **MySQL**.
+* **Git** instalado na máquina.
+
+### Passo a Passo
+
+1. **Clonar o repositório:**
+   Abra o terminal e navegue até a pasta `htdocs` do seu XAMPP:
+   ```bash
+   cd c:\xampp\htdocs
+   git clone [https://github.com/GustavoAngelo0/website_frandoro.git](https://github.com/GustavoAngelo0/website_frandoro.git)
