@@ -1,4 +1,4 @@
-# 🛒 PontoCaixa (Frandoro) — Sistema de Frente de Caixa (PDV)
+#  PontoCaixa (Frandoro) — Sistema de Frente de Caixa (PDV)
 
 > Uma solução completa, responsiva e segura para gestão de vendas de balcão, controle de fluxo de caixa e histórico de operações, desenvolvida sob medida para pequenos e médios estabelecimentos.
 
@@ -9,11 +9,11 @@
 
 ---
 
-## 💻 Visão Geral do Projeto
+##  Visão Geral do Projeto
 
 O **PontoCaixa** nasceu da necessidade de modernizar o atendimento no balcão, substituindo anotações manuais e calculadoras por uma interface web ágil. O sistema permite que operadores registrem produtos rapidamente, calculem valores baseados em peso ou unidade, e finalizem vendas com baixa automática no registro financeiro da sessão ativa.
 
-### ✨ Principais Funcionalidades
+###  Principais Funcionalidades
 
 * **Ponto de Venda (PDV) Dinâmico:** Interface assíncrona alimentada por Fetch API, permitindo adição e remoção de itens do carrinho sem recarregar a página.
 * **Cálculo de Frações (Peso x Unidade):** Suporte nativo a produtos vendidos por quilo (ex: 1.250kg) ou por unidade inteira.
@@ -24,7 +24,7 @@ O **PontoCaixa** nasceu da necessidade de modernizar o atendimento no balcão, s
 
 ---
 
-## 🔒 Arquitetura de Segurança Aplicada
+##  Arquitetura de Segurança Aplicada
 
 A segurança foi uma premissa desde a linha de base do projeto. As seguintes barreiras foram implementadas para garantir a integridade dos dados e a proteção do servidor:
 
@@ -39,7 +39,7 @@ A segurança foi uma premissa desde a linha de base do projeto. As seguintes bar
 
 ---
 
-## 📂 Estrutura de Diretórios (Padrão MVC Simplificado)
+##  Estrutura de Diretórios (Padrão MVC Simplificado)
 
 ```text
 /
