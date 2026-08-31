@@ -60,6 +60,7 @@ A segurança foi uma premissa desde a linha de base do projeto. As seguintes bar
 ├── public/                    # (Assets estáticos, CSS, JS, Imagens)
 ├── .htaccess                  # Bloqueio de indexação Apache
 └── frandoro.sql               # Dump estrutural do banco de dados
+```
 
 ---
 
