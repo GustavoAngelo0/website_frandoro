@@ -12,7 +12,7 @@
 $host    = 'localhost';    // Host do servidor (Ex: localhost ou 127.0.0.1)
 $usuario = 'root';         // Usuário do MySQL (No XAMPP o padrão é 'root')
 $senha   = '';             // Senha do MySQL (No XAMPP o padrão é vazio '')
-$banco   = 'frandoro';     // Nome do banco de dados (Importado via bd_frandoro.sql)
+$banco   = 'pontocaixa';     // Nome do banco de dados (Importado via bd_pontocaixa.sql)
 $porta   = 3306;           // Porta padrão do MySQL (Normalmente 3306)
 
 // Exemplo de Conexão usando PDO (Recomendado)
