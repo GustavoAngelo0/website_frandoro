@@ -258,16 +258,6 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Despejando dados para a tabela `usuarios`
---
-
-INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `criado_em`, `perfil`) VALUES
-(1, 'aaaa12', '123@gmail.cpm', '$2y$10$IzlkhJOWvqZSLFgd/TEnsuPE2BnQcAxr01IvJsIrK6ebaj8egBl9e', '2026-08-25 18:05:54', 'operador'),
-(2, 'Gustavo Angelo', 'w0w.gupereira@gmail.com', '$2y$10$y.zVnIgodzLt6RFtJf5.ZuSQmd2gSgcG0S8eT36GtJx5blaDscFJ2', '2026-08-25 18:37:37', 'operador'),
-(3, 'Gustavo Angelo', 'gustavo.angelo0910@gmail.com', '$2y$10$XBujzpjj2jzrVhBLWyBeouVRvgVubYim5RrsdZrSYX5YH7nTDsUV.', '2026-08-27 16:45:41', 'operador'),
-(5, 'joao silva', 'joaosilva12345678@hotmail.com', '$2y$10$LOajk2jzFmVBPnQvz/YZF.o.ntcYZMp/hID2tC/OdtAiJUm2LAijq', '2026-08-27 16:57:51', 'operador'),
-(6, 'Frango Recheado', 'frango123@gmail.com', '$2y$10$vazHw4xtuEVV5pYbyg3.ReQEzZ/5I76Kt8OiGfDg/9ka16nMeepg2', '2026-08-27 18:59:46', 'operador'),
-(7, 'Frango Assado', 'franfoa123@gmail.com', '$2y$10$NbvVMkParH5v68vJvUkJUeukHeNt3ZNaHtfaw4G7J3kxxT7xaM05e', '2026-08-27 19:00:48', 'operador');
 
 -- --------------------------------------------------------
 
