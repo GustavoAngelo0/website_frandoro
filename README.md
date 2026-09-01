@@ -77,3 +77,25 @@ A segurança foi uma premissa desde a linha de base do projeto. As seguintes bar
    ```bash
    cd c:\xampp\htdocs
    git clone [https://github.com/GustavoAngelo0/website_frandoro.git](https://github.com/GustavoAngelo0/website_frandoro.git)
+
+
+   ---
+
+**Demonstração da Interface**
+
+**Página Inicial (Landing Page)**
+![Página Inicial](img/index.png)
+
+**Frente de Caixa (PDV)**
+![Frente de Caixa](img/pdv.png)
+
+**Dashboard Gerencial**
+![Dashboard Gerencial](img/painel.png)
+
+**Controle de Caixa e Encomendas**
+![Gestão de Caixa](img/caixa.png)
+
+**Histórico de Transações**
+![Histórico de Vendas](img/historico.png)
+
+---
